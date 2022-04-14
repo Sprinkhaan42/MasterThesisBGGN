@@ -1,0 +1,21 @@
+2022-03-16 19:46:52,684 INFO    MainThread:7512 [wandb_setup.py:_flush():75] Loading settings from C:\Users\orteg\.config\wandb\settings
+2022-03-16 19:46:52,684 INFO    MainThread:7512 [wandb_setup.py:_flush():75] Loading settings from C:\Users\orteg\Downloads\BGGN-main\wandb\settings
+2022-03-16 19:46:52,684 INFO    MainThread:7512 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'dryrun'}
+2022-03-16 19:46:52,684 INFO    MainThread:7512 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'run_exp.py', 'program': 'C:\\Users\\orteg\\Downloads\\BGGN-main\\run_exp.py'}
+2022-03-16 19:46:52,685 INFO    MainThread:7512 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\orteg\Downloads\BGGN-main\wandb\offline-run-20220316_194652-3f5jtyrz\logs\debug.log
+2022-03-16 19:46:52,685 INFO    MainThread:7512 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\orteg\Downloads\BGGN-main\wandb\offline-run-20220316_194652-3f5jtyrz\logs\debug-internal.log
+2022-03-16 19:46:52,686 INFO    MainThread:7512 [wandb_init.py:init():439] calling init triggers
+2022-03-16 19:46:52,686 INFO    MainThread:7512 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'bpr_weight': 1, 'num_GNN_layers': 2}
+2022-03-16 19:46:52,686 INFO    MainThread:7512 [wandb_init.py:init():492] starting backend
+2022-03-16 19:46:52,686 INFO    MainThread:7512 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-03-16 19:46:52,689 INFO    MainThread:7512 [backend.py:ensure_launched():219] starting backend process...
+2022-03-16 19:46:52,804 INFO    MainThread:7512 [backend.py:ensure_launched():224] started backend process with pid: 20668
+2022-03-16 19:46:52,805 INFO    MainThread:7512 [wandb_init.py:init():501] backend started and connected
+2022-03-16 19:46:52,812 INFO    MainThread:7512 [wandb_init.py:init():565] updated telemetry
+2022-03-16 19:46:52,816 INFO    MainThread:7512 [wandb_init.py:init():625] starting run threads in backend
+2022-03-16 19:46:54,297 INFO    MainThread:7512 [wandb_run.py:_console_start():1733] atexit reg
+2022-03-16 19:46:54,299 INFO    MainThread:7512 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-03-16 19:46:54,299 INFO    MainThread:7512 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-03-16 19:46:54,300 INFO    MainThread:7512 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-03-16 19:46:54,301 INFO    MainThread:7512 [wandb_init.py:init():664] run started, returning control to user process

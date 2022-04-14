@@ -1,0 +1,30 @@
+2022-03-16 19:46:54,157 INFO    MainThread:20668 [internal.py:wandb_internal():92] W&B internal server running at pid: 20668, started at: 2022-03-16 19:46:54.157954
+2022-03-16 19:46:54,160 INFO    WriterThread:20668 [datastore.py:open_for_write():77] open: C:\Users\orteg\Downloads\BGGN-main\wandb\offline-run-20220316_194652-3f5jtyrz\run-3f5jtyrz.wandb
+2022-03-16 19:46:54,162 DEBUG   HandlerThread:20668 [handler.py:handle_request():141] handle_request: run_start
+2022-03-16 19:46:54,185 DEBUG   HandlerThread:20668 [meta.py:__init__():37] meta init
+2022-03-16 19:46:54,185 DEBUG   HandlerThread:20668 [meta.py:__init__():51] meta init done
+2022-03-16 19:46:54,185 DEBUG   HandlerThread:20668 [meta.py:probe():211] probe
+2022-03-16 19:46:54,273 DEBUG   HandlerThread:20668 [git.py:repo():33] git repository is invalid
+2022-03-16 19:46:54,274 DEBUG   HandlerThread:20668 [meta.py:_save_pip():55] save pip
+2022-03-16 19:46:54,274 DEBUG   HandlerThread:20668 [meta.py:_save_pip():69] save pip done
+2022-03-16 19:46:54,274 DEBUG   HandlerThread:20668 [meta.py:_save_conda():76] save conda
+2022-03-16 19:46:54,284 ERROR   HandlerThread:20668 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\wandb\sdk\internal\meta.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-03-16 19:46:54,285 DEBUG   HandlerThread:20668 [meta.py:_save_conda():86] save conda done
+2022-03-16 19:46:54,285 DEBUG   HandlerThread:20668 [meta.py:probe():249] probe done
+2022-03-16 20:15:03,608 WARNING MainThread:20668 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-16 20:15:10,259 WARNING MainThread:20668 [internal.py:is_dead():387] Internal process exiting, parent pid 7512 disappeared
+2022-03-16 20:15:10,260 ERROR   MainThread:20668 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-03-16 20:15:10,282 INFO    WriterThread:20668 [datastore.py:close():281] close: C:\Users\orteg\Downloads\BGGN-main\wandb\offline-run-20220316_194652-3f5jtyrz\run-3f5jtyrz.wandb
+2022-03-16 20:15:10,491 INFO    SenderThread:20668 [sender.py:finish():1078] shutting down sender
+2022-03-16 20:15:10,537 INFO    HandlerThread:20668 [handler.py:finish():778] shutting down handler
+2022-03-16 20:15:10,546 INFO    MainThread:20668 [internal.py:handle_exit():82] Internal process exited

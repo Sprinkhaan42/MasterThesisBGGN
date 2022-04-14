@@ -1,0 +1,32 @@
+[2022-03-16 19:42:51] INFO (exp_logger/MainThread) No Edges vs. Edges in training set = 1.0300164331166037
+exp/Youshu
+model_snapshot_0000050.pth
+[2022-03-16 19:42:51] ERROR (exp_logger/MainThread) Traceback (most recent call last):
+  File "C:\Users\orteg\Downloads\BGGN-main\run_exp.py", line 62, in main
+    runner.test()
+  File "C:\Users\orteg\Downloads\BGGN-main\runner\bggn_runner.py", line 366, in test
+    load_model(model, model_file, self.device)
+  File "C:\Users\orteg\Downloads\BGGN-main\utils\train_helper.py", line 48, in load_model
+    model_snapshot = torch.load(file_name, map_location=device)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'exp/Youshu\\model_snapshot_0000050.pth'
+INFO  | 2022-03-16 19:42:51,817 | bggn_runner.py            | line 157  : No Edges vs. Edges in training set = 1.0300164331166037
+ERROR | 2022-03-16 19:42:51,875 | run_exp.py                | line 64   : Traceback (most recent call last):
+  File "C:\Users\orteg\Downloads\BGGN-main\run_exp.py", line 62, in main
+    runner.test()
+  File "C:\Users\orteg\Downloads\BGGN-main\runner\bggn_runner.py", line 366, in test
+    load_model(model, model_file, self.device)
+  File "C:\Users\orteg\Downloads\BGGN-main\utils\train_helper.py", line 48, in load_model
+    model_snapshot = torch.load(file_name, map_location=device)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'exp/Youshu\\model_snapshot_0000050.pth'

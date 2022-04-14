@@ -1,0 +1,32 @@
+2022-04-09 16:41:46,320 INFO    MainThread:10048 [wandb_setup.py:_flush():75] Loading settings from C:\Users\orteg\.config\wandb\settings
+2022-04-09 16:41:46,320 INFO    MainThread:10048 [wandb_setup.py:_flush():75] Loading settings from C:\Users\orteg\Dropbox\BGGN-main\wandb\settings
+2022-04-09 16:41:46,320 INFO    MainThread:10048 [wandb_setup.py:_flush():75] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'dryrun'}
+2022-04-09 16:41:46,320 INFO    MainThread:10048 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'run_exp.py', 'program': 'C:\\Users\\orteg\\Dropbox\\BGGN-main\\run_exp.py'}
+2022-04-09 16:41:46,320 INFO    MainThread:10048 [wandb_init.py:_log_setup():405] Logging user logs to C:\Users\orteg\Dropbox\BGGN-main\wandb\offline-run-20220409_164146-32p0y2zy\logs\debug.log
+2022-04-09 16:41:46,322 INFO    MainThread:10048 [wandb_init.py:_log_setup():406] Logging internal logs to C:\Users\orteg\Dropbox\BGGN-main\wandb\offline-run-20220409_164146-32p0y2zy\logs\debug-internal.log
+2022-04-09 16:41:46,323 INFO    MainThread:10048 [wandb_init.py:init():439] calling init triggers
+2022-04-09 16:41:46,323 INFO    MainThread:10048 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'lr': 1.0, 'bpr_weight': 1, 'num_GNN_layers': 2}
+2022-04-09 16:41:46,323 INFO    MainThread:10048 [wandb_init.py:init():492] starting backend
+2022-04-09 16:41:46,323 INFO    MainThread:10048 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-04-09 16:41:46,326 INFO    MainThread:10048 [backend.py:ensure_launched():219] starting backend process...
+2022-04-09 16:41:46,410 INFO    MainThread:10048 [backend.py:ensure_launched():224] started backend process with pid: 3956
+2022-04-09 16:41:46,411 INFO    MainThread:10048 [wandb_init.py:init():501] backend started and connected
+2022-04-09 16:41:46,415 INFO    MainThread:10048 [wandb_init.py:init():565] updated telemetry
+2022-04-09 16:41:46,419 INFO    MainThread:10048 [wandb_init.py:init():625] starting run threads in backend
+2022-04-09 16:41:47,534 INFO    MainThread:10048 [wandb_run.py:_console_start():1733] atexit reg
+2022-04-09 16:41:47,535 INFO    MainThread:10048 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.WRAP
+2022-04-09 16:41:47,535 INFO    MainThread:10048 [wandb_run.py:_redirect():1643] Wrapping output streams.
+2022-04-09 16:41:47,536 INFO    MainThread:10048 [wandb_run.py:_redirect():1667] Redirects installed.
+2022-04-09 16:41:47,536 INFO    MainThread:10048 [wandb_init.py:init():664] run started, returning control to user process
+2022-04-09 16:41:47,544 INFO    MainThread:10048 [wandb_run.py:_atexit_cleanup():1702] got exitcode: 0
+2022-04-09 16:41:47,545 INFO    MainThread:10048 [wandb_run.py:_restore():1674] restore
+2022-04-09 16:41:48,571 INFO    MainThread:10048 [wandb_run.py:_on_finish():1831] got exit ret: 
+2022-04-09 16:41:48,676 INFO    MainThread:10048 [wandb_run.py:_on_finish():1831] got exit ret: done: true
+exit_result {
+}
+local_info {
+}
+
+2022-04-09 16:41:49,799 INFO    MainThread:10048 [wandb_run.py:_footer_history_summary_info():2865] rendering history
+2022-04-09 16:41:49,799 INFO    MainThread:10048 [wandb_run.py:_footer_history_summary_info():2894] rendering summary

@@ -1,0 +1,86 @@
+[2022-04-10 09:53:34] INFO (exp_logger/MainThread) No Edges vs. Edges in training set = 1.0246252780665028
+NEW EPOCH ! !! ! !
+[2022-04-10 09:54:53] INFO (exp_logger/MainThread) NLL Loss @ epoch 0001 iteration 00000001 = 0.6743862628936768
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 09:59:36] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0005
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:05:23] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0010
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:12:11] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0015
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:18:36] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0020
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:24:57] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0025
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:31:04] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0030
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+[2022-04-10 10:35:41] INFO (exp_logger/MainThread) NLL Loss @ epoch 0034 iteration 00000100 = 0.7763088941574097
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:36:52] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0035
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:42:27] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0040
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:48:09] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0045
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 10:53:59] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0050
+INFO  | 2022-04-10 09:53:34,329 | bggn_runner.py            | line 157  : No Edges vs. Edges in training set = 1.0246252780665028
+INFO  | 2022-04-10 09:54:53,807 | bggn_runner.py            | line 310  : NLL Loss @ epoch 0001 iteration 00000001 = 0.6743862628936768
+INFO  | 2022-04-10 09:59:36,135 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0005
+INFO  | 2022-04-10 10:05:23,900 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0010
+INFO  | 2022-04-10 10:12:11,595 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0015
+INFO  | 2022-04-10 10:18:36,604 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0020
+INFO  | 2022-04-10 10:24:57,103 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0025
+INFO  | 2022-04-10 10:31:04,385 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0030
+INFO  | 2022-04-10 10:35:41,359 | bggn_runner.py            | line 310  : NLL Loss @ epoch 0034 iteration 00000100 = 0.7763088941574097
+INFO  | 2022-04-10 10:36:52,824 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0035
+INFO  | 2022-04-10 10:42:27,659 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0040
+INFO  | 2022-04-10 10:48:09,869 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0045
+INFO  | 2022-04-10 10:53:59,447 | bggn_runner.py            | line 333  : Saving Snapshot @ epoch 0050

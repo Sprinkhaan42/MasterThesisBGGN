@@ -1,0 +1,2 @@
+Training Commands:  python run_exp.py -c config/bggn_Youshu.yaml -g 0
+Test Commands:  python run_exp.py -c config/bggn_Youshu.yaml -t -f exp/BGGN/Youshu_xxxxxx -n 2 -g 0

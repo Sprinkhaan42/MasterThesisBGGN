@@ -1,0 +1,31 @@
+[2022-04-10 04:28:27] INFO (exp_logger/MainThread) No Edges vs. Edges in training set = 1.0246252780665028
+NEW EPOCH ! !! ! !
+[2022-04-10 04:29:28] INFO (exp_logger/MainThread) NLL Loss @ epoch 0001 iteration 00000001 = 0.6743862628936768
+SNAPSHOT ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+NEW EPOCH ! !! ! !
+SNAPSHOT ! !! ! !
+SNAPSHOT ! !! ! !
+[2022-04-10 04:33:29] INFO (exp_logger/MainThread) Saving Snapshot @ epoch 0005
+[2022-04-10 04:33:29] ERROR (exp_logger/MainThread) Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 335, in train
+  File "C:\Users\orteg\Dropbox\BGGN-main\utils\train_helper.py", line 40, in snapshot
+    config_save = edict(yaml.load(open(save_name, 'r')))
+TypeError: load() missing 1 required positional argument: 'Loader'
+INFO  | 2022-04-10 04:28:27,603 | bggn_runner.py            | line 157  : No Edges vs. Edges in training set = 1.0246252780665028
+INFO  | 2022-04-10 04:29:28,078 | bggn_runner.py            | line 310  : NLL Loss @ epoch 0001 iteration 00000001 = 0.6743862628936768
+INFO  | 2022-04-10 04:33:29,196 | bggn_runner.py            | line 334  : Saving Snapshot @ epoch 0005
+ERROR | 2022-04-10 04:33:29,227 | run_exp.py                | line 64   : Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 335, in train
+  File "C:\Users\orteg\Dropbox\BGGN-main\utils\train_helper.py", line 40, in snapshot
+    config_save = edict(yaml.load(open(save_name, 'r')))
+TypeError: load() missing 1 required positional argument: 'Loader'

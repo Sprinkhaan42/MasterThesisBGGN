@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-04-06T13:51:21.877883",
+    "startedAt": "2022-04-06T13:51:20.771515",
+    "docker": null,
+    "gpu": "GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-c",
+        "config/bggn_Youshu.yaml",
+        "-g",
+        "0"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\orteg\\Dropbox\\BGGN-main\\run_exp.py",
+    "codePath": "run_exp.py",
+    "host": "CarlosOrtegaPersonal",
+    "username": "orteg",
+    "executable": "C:\\Users\\orteg\\Anaconda3\\envs\\bggn_env\\python.exe"
+}

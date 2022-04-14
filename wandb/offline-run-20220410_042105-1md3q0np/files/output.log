@@ -1,0 +1,15 @@
+[2022-04-10 04:21:06] INFO (exp_logger/MainThread) No Edges vs. Edges in training set = 1.0246252780665028
+NEW EPOCH ! !! ! !
+[2022-04-10 04:22:07] ERROR (exp_logger/MainThread) Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 303, in train
+    train_loss = float(avg_train_loss.data.cpu().numpy())
+AttributeError: 'float' object has no attribute 'data'
+INFO  | 2022-04-10 04:21:06,940 | bggn_runner.py            | line 157  : No Edges vs. Edges in training set = 1.0246252780665028
+ERROR | 2022-04-10 04:22:07,094 | run_exp.py                | line 64   : Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 303, in train
+    train_loss = float(avg_train_loss.data.cpu().numpy())
+AttributeError: 'float' object has no attribute 'data'

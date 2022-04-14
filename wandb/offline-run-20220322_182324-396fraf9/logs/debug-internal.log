@@ -1,0 +1,23 @@
+2022-03-22 18:23:25,614 INFO    MainThread:24552 [internal.py:wandb_internal():92] W&B internal server running at pid: 24552, started at: 2022-03-22 18:23:25.614508
+2022-03-22 18:23:25,617 INFO    WriterThread:24552 [datastore.py:open_for_write():77] open: C:\Users\orteg\Downloads\BGGN-main\wandb\offline-run-20220322_182324-396fraf9\run-396fraf9.wandb
+2022-03-22 18:23:25,618 DEBUG   HandlerThread:24552 [handler.py:handle_request():141] handle_request: run_start
+2022-03-22 18:23:26,431 DEBUG   HandlerThread:24552 [meta.py:__init__():37] meta init
+2022-03-22 18:23:26,431 DEBUG   HandlerThread:24552 [meta.py:__init__():51] meta init done
+2022-03-22 18:23:26,433 DEBUG   HandlerThread:24552 [meta.py:probe():211] probe
+2022-03-22 18:23:26,527 DEBUG   HandlerThread:24552 [git.py:repo():33] git repository is invalid
+2022-03-22 18:23:26,527 DEBUG   HandlerThread:24552 [meta.py:_save_pip():55] save pip
+2022-03-22 18:23:26,528 DEBUG   HandlerThread:24552 [meta.py:_save_pip():69] save pip done
+2022-03-22 18:23:26,528 DEBUG   HandlerThread:24552 [meta.py:_save_conda():76] save conda
+2022-03-22 18:23:26,535 ERROR   HandlerThread:24552 [meta.py:_save_conda():85] Error saving conda packages
+Traceback (most recent call last):
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\wandb\sdk\internal\meta.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\subprocess.py", line 1420, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2022-03-22 18:23:26,536 DEBUG   HandlerThread:24552 [meta.py:_save_conda():86] save conda done
+2022-03-22 18:23:26,536 DEBUG   HandlerThread:24552 [meta.py:probe():249] probe done

@@ -1,0 +1,54 @@
+[2022-04-06 12:10:33] INFO (exp_logger/MainThread) No Edges vs. Edges in training set = 1.0300164331166037
+BEFORE EPOCH ! !! ! !
+[2022-04-06 12:17:15] ERROR (exp_logger/MainThread) Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 250, in train
+    train_iterator = train_loader.__iter__()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 359, in __iter__
+    return self._get_iterator()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 305, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 918, in __init__
+    w.start()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+MemoryError
+INFO  | 2022-04-06 12:10:33,931 | bggn_runner.py            | line 157  : No Edges vs. Edges in training set = 1.0300164331166037
+ERROR | 2022-04-06 12:17:15,895 | run_exp.py                | line 64   : Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 250, in train
+    train_iterator = train_loader.__iter__()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 359, in __iter__
+    return self._get_iterator()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 305, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 918, in __init__
+    w.start()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\context.py", line 327, in _Popen
+    return Popen(process_obj)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\popen_spawn_win32.py", line 93, in __init__
+    reduction.dump(process_obj, to_child)
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\multiprocessing\reduction.py", line 60, in dump
+    ForkingPickler(file, protocol).dump(obj)
+MemoryError
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x0000027B2D5CEDC0>
+Traceback (most recent call last):
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "C:\Users\orteg\Anaconda3\envs\bggn_env\lib\site-packages\torch\utils\data\dataloader.py", line 1295, in _shutdown_workers
+    if self._persistent_workers or self._workers_status[worker_id]:
+AttributeError: '_MultiProcessingDataLoaderIter' object has no attribute '_workers_status'

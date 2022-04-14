@@ -1,0 +1,26 @@
+[2022-04-09 16:41:47] INFO (exp_logger/MainThread) No Edges vs. Edges in training set = 1.2713728272437035
+[2022-04-09 16:41:47] ERROR (exp_logger/MainThread) Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 184, in train
+    train_dataset = eval(self.dataset_conf.train_loader_name)(self.config, self.graphs, tag='train')
+  File "C:\Users\orteg\Dropbox\BGGN-main\dataset\bggn_data.py", line 56, in __init__
+    self.U_B_graphs = self._load_data()
+  File "C:\Users\orteg\Dropbox\BGGN-main\dataset\bggn_data.py", line 98, in _load_data
+    U_B_graphs = [tuple([int(i[0]), self.graphs[i[1]]]) for i in U_B_pairs]
+  File "C:\Users\orteg\Dropbox\BGGN-main\dataset\bggn_data.py", line 98, in <listcomp>
+    U_B_graphs = [tuple([int(i[0]), self.graphs[i[1]]]) for i in U_B_pairs]
+KeyError: 327
+INFO  | 2022-04-09 16:41:47,538 | bggn_runner.py            | line 157  : No Edges vs. Edges in training set = 1.2713728272437035
+ERROR | 2022-04-09 16:41:47,541 | run_exp.py                | line 64   : Traceback (most recent call last):
+  File "C:\Users\orteg\Dropbox\BGGN-main\run_exp.py", line 59, in main
+    runner.train()
+  File "C:\Users\orteg\Dropbox\BGGN-main\runner\bggn_runner.py", line 184, in train
+    train_dataset = eval(self.dataset_conf.train_loader_name)(self.config, self.graphs, tag='train')
+  File "C:\Users\orteg\Dropbox\BGGN-main\dataset\bggn_data.py", line 56, in __init__
+    self.U_B_graphs = self._load_data()
+  File "C:\Users\orteg\Dropbox\BGGN-main\dataset\bggn_data.py", line 98, in _load_data
+    U_B_graphs = [tuple([int(i[0]), self.graphs[i[1]]]) for i in U_B_pairs]
+  File "C:\Users\orteg\Dropbox\BGGN-main\dataset\bggn_data.py", line 98, in <listcomp>
+    U_B_graphs = [tuple([int(i[0]), self.graphs[i[1]]]) for i in U_B_pairs]
+KeyError: 327
