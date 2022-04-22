@@ -182,7 +182,7 @@ def graph_load_batch_1(data_dir,
         G_sub = nx.complete_graph(nodes)
 
     # 2. non-complete graph via binomial
-    elif name == 'Youshu' or 'NetEase':
+    elif name == 'Youshu' or 'NetEase' or 'Sports':
         corel_in_bundle = ii_corelation[nodes, :][:, nodes].A
         #  corel_in_bundle[range(corel_in_bundle.shape[0]),range(corel_in_bundle.shape[1])]=0
         np.fill_diagonal(corel_in_bundle, 0)
@@ -336,7 +336,7 @@ def create_graphs(graph_type, data_dir='data', noise=10.0, seed=1234):
         graph_labels=True)
     # args.max_prev_node = 230
 
-  elif graph_type == 'Youshu' or 'Steam' or 'NetEase' or 'Douban':
+  elif graph_type == 'Youshu' or 'Steam' or 'NetEase' or 'Douban' or 'Sports':
     graphs = graph_load_batch_1(
         data_dir,
         min_num_nodes=2,
